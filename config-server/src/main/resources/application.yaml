@@ -1,0 +1,10 @@
+server:
+  port: 7072
+
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+
+
