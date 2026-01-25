@@ -1,0 +1,15 @@
+server:
+  port: 7072
+
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    discovery:
+      enabled: false
+    netflix:
+      eureka:
+        client:
+          enabled: false
